@@ -1,0 +1,31 @@
+.product-display{
+   display: grid;
+   grid-template-columns: 2fr 3fr;
+   border-bottom: 1px solid lightslategray;
+   margin-top: 20px ;
+   margin-bottom: 20px;
+   padding: 5px;
+}
+.image img{
+    height: 90%;
+    width: 80%;
+}
+.cart-button{
+    background-color: rgb(248, 148, 65);
+    width: 90%;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.cart-feature{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.product-name{
+    color:mediumblue
+}
+.feature{
+    color: rgb(226, 82, 16);
+}

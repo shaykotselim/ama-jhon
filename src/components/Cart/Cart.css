@@ -1,0 +1,29 @@
+.summary{
+    text-align: center;
+    line-height: 8px;
+    margin-bottom: 40px;
+}
+.item{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 8px;
+    border-bottom: 2px solid lightslategray;
+}
+.total{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-left: 10px;
+    font-size: 14px;
+    color: orangered;
+}
+.confrim-button{
+    text-align: center;
+    width: 60%;
+    background-color: rgb(252, 107, 50);
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10% ;
+}
